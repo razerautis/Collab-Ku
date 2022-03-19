@@ -5,7 +5,7 @@
 
 rm -fr google-xrdp-v3.sh
 echo "PROGRESS TIME : 5 MINUTES"
-echo "Bintang andovi"
+echo "andovi"
 echo ""
 nohup ./ngrok tcp --region ap 3389 &>/dev/null &
 echo "-Installing xrdp component"
