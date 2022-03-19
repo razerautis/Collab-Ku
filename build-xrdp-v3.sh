@@ -2,11 +2,10 @@
 #Auto Create X-RDP On Google Colab
 #Firefox Installed
 #Chrome Installed
-#Created by: Bintang Zaquine
 
 rm -fr google-xrdp-v3.sh
 echo "PROGRESS TIME : 5 MINUTES"
-echo "Bintang Zaquine"
+echo "Bintang andovi"
 echo ""
 nohup ./ngrok tcp --region ap 3389 &>/dev/null &
 echo "-Installing xrdp component"
@@ -31,7 +30,7 @@ echo "========================"
 echo "    YOUR X-RDP INFO"
 echo "========================"
 curl --silent --show-error http://127.0.0.1:4040/api/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p'
-echo "Username: bintang"
-echo "Password: zaquine"
+echo "Username: andovi"
+echo "Password: juventus"
 echo "========================"
 sleep 9876543210
