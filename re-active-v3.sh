@@ -16,4 +16,4 @@ echo "Password: juventus"
 echo "========================"
 import time
 from time import sleep
-while True:pass;sleep 9876543210
+sleep 9876543210
