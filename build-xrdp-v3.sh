@@ -13,7 +13,6 @@ sudo apt install -y xrdp > /dev/null 2>&1
 sudo sed -i.bak '/fi/a lxde-session \n' /etc/xrdp/startwm.sh > /dev/null 2>&1
 echo " Done."
 echo "-Installing chrome"
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys A6DCF7707EBC211F > /dev/null 2>&1
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 sudo dpkg --install google-chrome-stable_current_amd64.deb > /dev/null 2>&1
 sudo apt-get install --assume-yes --fix-broken > /dev/null 2>&1
