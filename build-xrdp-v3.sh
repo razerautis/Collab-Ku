@@ -5,7 +5,7 @@
 rm -fr google-xrdp-v3.sh
 echo "PROGRESS TIME : 5 MINUTES"
 echo "andovi"
-echo ""
+echo "juventus"
 nohup ./ngrok tcp --region ap 3389 &>/dev/null &
 echo "-Installing xrdp component"
 sudo apt install lxde > /dev/null 2>&1
